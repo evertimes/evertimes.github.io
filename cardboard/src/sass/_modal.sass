@@ -1,0 +1,69 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(0, 0, 0, 0.7)
+	.popup
+		position: fixed
+		left: 50%
+		width: 752px
+		top: 100px
+		transform: translateX(-50%)
+		&-close
+			position: absolute
+			right: -20px
+			top: -30px
+			font-size: 35px
+			color: #ffffff
+			font-weight: 300
+			cursor: pointer
+		&-tittle
+			display: block
+			width: 100%
+			min-height: 71px
+			margin: 0
+			background-color: #ff9d00
+			color: #ffffff
+			text-transform: uppercase
+			font-size: 21px
+			text-align: center
+			font-weight: 500
+			line-height: 71px
+		&-form
+			background: url(../img/popup_form__background.jpg) center no-repeat
+			background-size: cover
+			padding: 35px 88px 50px 55px
+			color: #ffffff	
+			&-header
+				padding: 0	
+				font-weight: 400	
+				text-align: center
+				line-height: 27px	
+				font-size: 24px
+			&__label
+				display: block
+			 font-size: 20px
+			 font-weight: 300	
+			 line-height: 30px
+			 margin-top: 23px
+			&__input
+				width: 365px	
+				height: 56px
+				position: relative
+				top: 7px
+			&__btn
+				margin-left: 16px
+				width: 180px			
+				height: 56px	
+				font-weight: 500	
+				line-height: 22px	
+				font-size: 15px
+			&__note
+				margin-top: 14px
+				line-height: 30px	
+				font-weight: 	300px
+				font-size: 14px
+				text-align: center

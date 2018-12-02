@@ -1,0 +1,69 @@
+.main
+	position: relative
+	padding-top: 65px
+	padding-bottom: 60px
+	background: 	#373737 url(../img/main/main-bg.jpg) 0 0 no-repeat
+	color: $text-color-light
+	z-index: 1
+	background-size: cover
+	&::before
+		content: ''
+		display: block
+		position: absolute	
+		left: 0
+		top: 0
+		width: 100%	
+		height: 100%	
+		background-color: rgba(0, 0, 0, 0.5)
+		z-index: 0
+	&-img
+		position: relative
+		width: 390px	
+	 height: 390px	
+	 &::before
+	 	content: ''
+	 	position: absolute
+	 	z-index: 2
+	  width: 390px	
+	 	height: 390px	
+	 	left: 50%
+	 	margin-left: -195px
+	 	border: 1px solid white
+	 	border-radius: 50%
+	 	z-index: -1
+	&-text
+		&__tittle
+			font-weight: 700
+			font-size: 41px
+		&__subtittle
+			font-size: 28px
+			font-weight: 300
+			margin-bottom: 27px
+		&__form
+			background-color: rgba(255,255,255,0.2)
+			padding: 27px 30px
+.form-tittle
+	font-size: 20px
+ font-weight: 300
+ line-height: 30px
+	&__important
+		font-weight: 700
+  text-transform: uppercase
+  margin-bottom: 20px
+.form-small
+	font-size: 14px
+ font-weight: 300
+.form
+ input
+ 	margin-right: 10px
+ 	border: none
+ 	max-width: 311px
+ 	width: 70%
+ 	text-align: left
+ 	height: 56px
+ 	padding-left: 15px
+ button
+ 	height: 56px
+			
+			
+			
