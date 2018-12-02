@@ -6,7 +6,7 @@ module.exports = {
     './src/sass/style.sass'
   ],
   output: {
-    filename: './js/script.js'
+    filename: './../js/script.js'
   },
   devtool: "source-map",
   module: {
@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: './css/style.css',
+      filename: './../css/style.css',
       allChunks: true,
     })
   ]
