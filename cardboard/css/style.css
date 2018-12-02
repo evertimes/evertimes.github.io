@@ -90,7 +90,7 @@ input {
   position: relative;
   padding-top: 65px;
   padding-bottom: 60px;
-  background: #373737 url(././img/main/main-bg.jpg) 0 0 no-repeat;
+  background: #373737 url(../img/main/main-bg.jpg) 0 0 no-repeat;
   color: #ffffff;
   z-index: 1;
   background-size: cover; }
@@ -190,7 +190,7 @@ input {
       font-weight: 500;
       line-height: 71px; }
     .overlay .popup-form {
-      background: url(/img/popup_form__background.jpg) center no-repeat;
+      background: url(./../img/popup_form__background.jpg) center no-repeat;
       background-size: cover;
       padding: 35px 88px 50px 55px;
       color: #ffffff; }
@@ -307,7 +307,7 @@ input {
     margin-top: 56px; }
 
 .adv {
-  background: url(../img/popup_form__background.jpg) center no-repeat;
+  background: url(./../img/popup_form__background.jpg) center no-repeat;
   background-size: cover;
   min-height: 412px;
   margin: 0;
